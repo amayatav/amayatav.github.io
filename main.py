@@ -26,20 +26,7 @@ for c in unencoded_string:
         count = 1
 if previous_char != None:
     encoded += str(count) + previous_char
-'''
-failed :[
-unencoded_string_dict = {}
-for i in unencoded_string:
-    if i in unencoded_string_dict and unencoded_string_dict[i]<9:
-        unencoded_string_dict[i] += 1
-        #If the key already exists in the dictionary, then this will add 1 to the value
-    else:
-        unencoded_string_dict[i] = 1
-        #If the key does not exist in the dictionary, this will add one and assign it a value of 1
-for key,value in unencoded_string_dict.items():
-    encoded += str(value) + key
-    #Adding the value and key combined to the empty string "encoded"
-'''
+
 
 ###########  PUT YOUR CODE ABOVE THIS LINE  ###########
 print(f"{unencoded_string} encoded is {encoded}") # DO NOT CHANGE THIS
