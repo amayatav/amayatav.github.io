@@ -1,1 +1,1 @@
-# code by amaya
+# basic search engine
